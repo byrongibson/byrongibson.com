@@ -50,18 +50,18 @@ module.exports = function(grunt) {
       }
       ,bootstrap: {
         src: [
-          'bower_components/js/transition.js'
-          ,'bower_components/js/alert.js'
-          ,'bower_components/js/button.js'
-          ,'bower_components/js/carousel.js'
-          ,'bower_components/js/collapse.js'
-          ,'bower_components/js/dropdown.js'
-          ,'bower_components/js/modal.js'
-          ,'bower_components/js/tooltip.js'
-          ,'bower_components/js/popover.js'
-          ,'bower_components/js/scrollspy.js'
-          ,'bower_components/js/tab.js'
-          ,'bower_components/js/affix.js'
+          'bower_components/bootstrap/js/transition.js'
+          ,'bower_components/bootstrap/js/alert.js'
+          ,'bower_components/bootstrap/js/button.js'
+          ,'bower_components/bootstrap/js/carousel.js'
+          ,'bower_components/bootstrap/js/collapse.js'
+          ,'bower_components/bootstrap/js/dropdown.js'
+          ,'bower_components/bootstrap/js/modal.js'
+          ,'bower_components/bootstrap/js/tooltip.js'
+          ,'bower_components/bootstrap/js/popover.js'
+          ,'bower_components/bootstrap/js/scrollspy.js'
+          ,'bower_components/bootstrap/js/tab.js'
+          ,'bower_components/bootstrap/js/affix.js'
         ]
         ,dest: 'build/scripts/lib/bootstrap.js'
       }
@@ -193,9 +193,9 @@ module.exports = function(grunt) {
           , zeroUnits: true                // Doesn't complain if you add units to values of 0
         }
         ,files: {
-          'build/styles/lib/bootstrap.css':'src/styles/less/bootstrap.less'
-          ,'build/styles/lib/bootstrap-theme.css':'src/styles/less/theme.less'
-          ,'build/styles/main.css':'src/styles/less/main.less'
+          /*'build/styles/lib/bootstrap.css':'src/styles/less/bootstrap.less'
+          ,'build/styles/lib/bootstrap-theme.css':'src/styles/less/theme.less'*/
+          'build/styles/main.css':'src/styles/less/main.less'
         }              
       }
       ,dist: {  
@@ -212,9 +212,9 @@ module.exports = function(grunt) {
           , zeroUnits: true                // Doesn't complain if you add units to values of 0
         }
         ,files: {
-          'build/styles/lib/bootstrap.css':'src/styles/less/bootstrap.css'
-          ,'build/styles/lib/bootstrap-theme.css':'src/styles/less/theme.css'
-          ,'build/styles/main.css':'src/styles/less/main.css'
+          /*'build/styles/lib/bootstrap.css':'src/styles/less/bootstrap.css'
+          ,'build/styles/lib/bootstrap-theme.css':'src/styles/less/theme.css'*/
+          'build/styles/main.css':'src/styles/less/main.css'
         }
       }
     }
@@ -296,8 +296,8 @@ module.exports = function(grunt) {
           , compress: false
           , beautify: true
           , report: false
-          , sourceMap: 'test/scripts/source-map.js'
-          , sourceMapRoot: 'src/scripts/'
+          //, sourceMap: 'test/scripts/source-map.js'
+          //, sourceMapRoot: 'src/scripts/'
           , preserveComments: true
         }
         ,files: {
@@ -310,8 +310,8 @@ module.exports = function(grunt) {
           , compress: true
           , beautify: false
           , report: 'min'
-          , sourceMap: 'dist/scripts/source-map.js'
-          , sourceMapRoot: 'src/scripts/'
+          //, sourceMap: 'dist/scripts/source-map.js'
+          //, sourceMapRoot: 'src/scripts/'
           , preserveComments: false
         },
         files: {
@@ -324,8 +324,8 @@ module.exports = function(grunt) {
           , compress: true
           , beautify: true
           , report: 'gzip'
-          , sourceMap: 'dist/scripts/source-map.js'
-          , sourceMapRoot: 'src/scripts/'
+          //, sourceMap: 'dist/scripts/source-map.js'
+          //, sourceMapRoot: 'src/scripts/'
           , preserveComments: false
         }
         ,files: {
@@ -362,7 +362,7 @@ module.exports = function(grunt) {
             /*,'bower_components/html5shiv/dist/html5shiv.js'
             ,'bower_components/html5shiv/dist/html5shiv-printshiv.js'*/
             ,'bower_components/react/react.js'
-            ,'bower_components/react/JSXTransformer.js'
+            //,'bower_components/react/JSXTransformer.js'
             ,'src/scripts/main.js'
             /*,'src/scripts/plugins.js'*/
           ]

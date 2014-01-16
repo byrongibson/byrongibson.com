@@ -33,7 +33,7 @@
     "grunt-contrib-qunit": "latest",
     "grunt-contrib-uglify": "latest",
     "grunt-contrib-watch": "latest",
-    "grunt-contrib-htmlmin": "latest"
+    "grunt-contrib-htmlmin": "latest",
     "grunt-html-validation": "latest",
     "grunt-recess": "latest",
     "grunt-react": "latest",
@@ -43,5 +43,6 @@
     "uglify-js": "latest",
     "uglifyjs": "latest",
     "less": "latest",
+    "source-map": "latest"
   }
 }

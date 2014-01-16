@@ -31,7 +31,7 @@ My Website.  Under Construction.
   ([http://localhost:3000][4])
 
 You can leave the webserver running while you rerun the build tasks and it will 
-auto-update.  Watch task in progress.
+auto-update.  Watch task under construction.
 
 [1]:http://nodejs.org/
 [2]:http://bower.io/

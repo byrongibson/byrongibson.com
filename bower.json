@@ -1,0 +1,29 @@
+{
+  "name": "byrongibson.com",
+  "version": "1.0.0",
+  "main": [
+    "./dist/scripts/main.js",
+    "./dist/styles/main.css",
+    "./dist/fonts/*"
+  ],
+  "ignore": [
+    "**/.*"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "html5shiv": "~3.7.0",
+    "html5-boilerplate": "latest",
+    "bootstrap": "~3.0.0",
+    "jquery": ">= 1.9.0",
+    "modernizr": "latest",
+    "react": "latest",
+    "respond": "latest",
+    "d3": "latest"
+    "pure": "~0.3.0",
+    "topcoat": "~0.8.0",
+    "topcoat-button": "~0.5.4"
+  }
+}
+
+

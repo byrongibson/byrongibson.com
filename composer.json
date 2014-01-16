@@ -1,0 +1,15 @@
+{
+    "name": "byrongibson.com"
+  , "description": "My personal website, built FOSS tough."
+  , "keywords": ["byrongibson", "byrongibson.com"]
+  , "homepage": "http://byrongibson.com"
+  , "authors": [
+      {
+        "name": "Byron Gibson",
+        "contact": "@byrongibson"
+      }
+    ]
+  , "support": {
+      "issues": "https://github.com/byrongibson/byrongibson.com/issues"
+    }
+}

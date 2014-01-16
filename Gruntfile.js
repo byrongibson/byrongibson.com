@@ -586,10 +586,10 @@ module.exports = function(grunt) {
   /***** Build Browserify *****/
 
   // Test build, builds ./test 
-  grunt.registerTask('test-browserify', ['clean:test', 'copy:common', 'test-styles', 'test-scripts-browserify', 'test-html', 'copy:test']);
+  grunt.registerTask('testb', ['clean:test', 'copy:common', 'test-styles', 'test-scripts-browserify', 'test-html', 'copy:test']);
   // Production build, builds ./dist
-  grunt.registerTask('dist-browserify', ['clean:dist', 'copy:common', 'dist-styles', 'dist-scripts-browserify', 'dist-html', 'copy:dist']);
+  grunt.registerTask('distb', ['clean:dist', 'copy:common', 'dist-styles', 'dist-scripts-browserify', 'dist-html', 'copy:dist']);
   // Optimized build, builds ./dist with gzipped assets
-  grunt.registerTask('gzip-browserify', ['clean:dist', 'copy:common', 'dist-styles', 'gzip-scripts-browserify', 'dist-html', 'copy:dist']);
+  grunt.registerTask('gzipb', ['clean:dist', 'copy:common', 'dist-styles', 'gzip-scripts-browserify', 'dist-html', 'copy:dist']);
 
 };

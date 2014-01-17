@@ -355,7 +355,7 @@ module.exports = function(grunt) {
           ,postBundleCB: */
         }
         ,files: {
-          'build/scripts/module.js': [
+          'build/scripts/main.js': [
             'bower_components/jquery/jquery.js'
             ,'<%= concat.bootstrap.dest %>'
             /*,'bower_components/d3/d3.js'*/
@@ -363,7 +363,7 @@ module.exports = function(grunt) {
             ,'bower_components/html5shiv/dist/html5shiv-printshiv.js'*/
             ,'bower_components/react/react.js'
             //,'bower_components/react/JSXTransformer.js'
-            ,'src/scripts/main.js'
+            ,'src/scripts/main.browserify.js'
             /*,'src/scripts/plugins.js'*/
           ]
         }

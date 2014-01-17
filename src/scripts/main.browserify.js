@@ -1,3 +1,5 @@
+var 
+
 
 // CommonJS style for Browserify
 module.exports = function () {
